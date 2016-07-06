@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="OrangeOnBlack" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+    </style>
+
 </resources>
