@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button[] buttons = new Button[6];
-        
+
         buttons[0] = (Button)findViewById(R.id.button);
         buttons[1] = (Button)findViewById(R.id.button2);
         buttons[2] = (Button)findViewById(R.id.button3);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     String appName = ((Button)v).getText().toString();
                     Context context = getApplicationContext();
-                    CharSequence text = appName;
+                    CharSequence text = "This button will launch " + appName + "!";
                     int duration = Toast.LENGTH_SHORT;
 
                     Toast toast = Toast.makeText(context, text, duration);
